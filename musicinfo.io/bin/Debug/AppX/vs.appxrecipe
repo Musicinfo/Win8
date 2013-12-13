@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-UBP5COH6O2T</Machine>
+    <WindowsUser>tonil_000</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e42a8fe4-5133-4da5-a09c-495dbb7ad21d</PackageIdentityName>
+    <RegisteredManifestChecksum>157696B745D210B8C2597091D3C3477B89EEA7BCB9E44361861065F3AFABEC76</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e42a8fe4-5133-4da5-a09c-495dbb7ad21d_1.0.0.0_neutral__50wmwq7kasdhg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e42a8fe4-5133-4da5-a09c-495dbb7ad21d_50wmwq7kasdhg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e42a8fe4-5133-4da5-a09c-495dbb7ad21d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=toni</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-13T13:35:15.271</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-12-13T13:20:11.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\pages\hub\hub.css">
+      <PackagePath>pages\hub\hub.css</PackagePath>
+      <Modified>2013-12-13T13:20:11.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\pages\section\section.css">
+      <PackagePath>pages\section\section.css</PackagePath>
+      <Modified>2013-12-13T13:20:11.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\pages\item\item.css">
+      <PackagePath>pages\item\item.css</PackagePath>
+      <Modified>2013-12-13T13:20:11.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-13T13:20:11.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-13T13:20:11.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-13T13:20:11.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-13T13:20:11.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\images\gray.png">
+      <PackagePath>images\gray.png</PackagePath>
+      <Modified>2013-12-13T13:20:11.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+      <Modified>2013-12-13T13:20:11.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-12-13T13:20:11.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2013-12-13T13:20:11.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\pages\hub\hub.js">
+      <PackagePath>pages\hub\hub.js</PackagePath>
+      <Modified>2013-12-13T13:20:11.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\pages\section\section.js">
+      <PackagePath>pages\section\section.js</PackagePath>
+      <Modified>2013-12-13T13:20:11.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\pages\item\item.js">
+      <PackagePath>pages\item\item.js</PackagePath>
+      <Modified>2013-12-13T13:20:11.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\pages\hub\hub.html">
+      <PackagePath>pages\hub\hub.html</PackagePath>
+      <Modified>2013-12-13T13:20:11.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\pages\section\section.html">
+      <PackagePath>pages\section\section.html</PackagePath>
+      <Modified>2013-12-13T13:20:11.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\pages\item\item.html">
+      <PackagePath>pages\item\item.html</PackagePath>
+      <Modified>2013-12-13T13:20:11.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-12-13T13:20:11.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-12-13T13:35:15.091</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

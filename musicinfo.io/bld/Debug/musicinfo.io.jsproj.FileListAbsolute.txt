@@ -1,0 +1,15 @@
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bin\Debug\ReverseMap\resources.pri
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bin\Debug\AppxManifest.xml
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bin\Debug\musicinfo.io.build.appxrecipe
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\priconfig.xml
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\priconfig.xml.intermediate
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\layout.resfiles
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\layout.resfiles.intermediate
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\resources.resfiles
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\resources.resfiles.intermediate
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\pri.resfiles
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\pri.resfiles.intermediate
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\qualifiers.txt
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\qualifiers.txt.intermediate
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\tonil_000\Source\Repos\Win8\musicinfo.io\bld\Debug\ProjectArchitectures.txt
