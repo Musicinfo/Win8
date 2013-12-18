@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <m2:VisualElements DisplayName="musicinfo.io" Description="musicinfo.io music search database" ForegroundText="dark" BackgroundColor="#FFFFFF" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png" ToastCapable="true">
+      <m2:VisualElements DisplayName="musicinfo.io" Description="musicinfo.io music search database" ForegroundText="dark" BackgroundColor="#373737" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png" ToastCapable="true">
         <m2:DefaultTile ShortName="musicinfo">
           <m2:ShowNameOnTiles>
             <m2:ShowOn Tile="square150x150Logo" />

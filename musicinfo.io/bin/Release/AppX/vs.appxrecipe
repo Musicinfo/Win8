@@ -6,7 +6,7 @@
     <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>e42a8fe4-5133-4da5-a09c-495dbb7ad21d</PackageIdentityName>
-    <RegisteredManifestChecksum>E7FAE433F01367D3D37E4BC45F1B641767AF66DF6B9FEA9E90130922C07E9790</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>45009F8ECE996AA90137A02934D8DECDE843695A7F600ABAE51830FF80F41802</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e42a8fe4-5133-4da5-a09c-495dbb7ad21d_1.0.0.0_neutral__50wmwq7kasdhg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e42a8fe4-5133-4da5-a09c-495dbb7ad21d_50wmwq7kasdhg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e42a8fe4-5133-4da5-a09c-495dbb7ad21d</RegisteredPackageID>
@@ -17,7 +17,7 @@
     <AppXManifest Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-15T16:42:23.641</Modified>
+      <Modified>2013-12-16T04:03:57.870</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\bin\Release\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-12-15T16:42:23.477</Modified>
+      <Modified>2013-12-16T04:03:57.722</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
