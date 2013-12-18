@@ -3,5 +3,6 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\toni\AppData\Local\Temp\wcpzfykt_musicinfo.io_refcache</ReferenceCachePath>
     <ShowAllFiles>true</ShowAllFiles>
+    <AutoRefresh>true</AutoRefresh>
   </PropertyGroup>
 </Project>

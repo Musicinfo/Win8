@@ -30,18 +30,30 @@
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\smalllogo.scale-100.png">
-      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\spash.scale-100.png">
       <PackagePath>images\spash.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\spash.scale-140.png">
+      <PackagePath>images\spash.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\spash.scale-180.png">
+      <PackagePath>images\spash.scale-180.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\splashscreen.scale-180.png">
+      <PackagePath>images\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
@@ -49,6 +61,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\gray.png">
       <PackagePath>images\gray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\storelogo.scale-140.png">
+      <PackagePath>images\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\storelogo.scale-180.png">
+      <PackagePath>images\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\js\data.js">
       <PackagePath>js\data.js</PackagePath>

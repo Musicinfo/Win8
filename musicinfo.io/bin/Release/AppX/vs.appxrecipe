@@ -6,7 +6,7 @@
     <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>e42a8fe4-5133-4da5-a09c-495dbb7ad21d</PackageIdentityName>
-    <RegisteredManifestChecksum>45009F8ECE996AA90137A02934D8DECDE843695A7F600ABAE51830FF80F41802</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>25B6487DA2C8249AD7B1363A4167031C2A584B795C54A9EC3EA0E712DAFFBFBC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e42a8fe4-5133-4da5-a09c-495dbb7ad21d_1.0.0.0_neutral__50wmwq7kasdhg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e42a8fe4-5133-4da5-a09c-495dbb7ad21d_50wmwq7kasdhg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e42a8fe4-5133-4da5-a09c-495dbb7ad21d</RegisteredPackageID>
@@ -17,7 +17,7 @@
     <AppXManifest Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-16T04:03:57.870</Modified>
+      <Modified>2013-12-18T13:56:05.843</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -42,31 +42,61 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-12-15T16:36:52.831</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\smalllogo.scale-100.png">
-      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-15T14:36:32.970</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\spash.scale-100.png">
       <PackagePath>images\spash.scale-100.png</PackagePath>
-      <Modified>2013-12-15T16:37:31.266</Modified>
+      <Modified>2013-12-18T13:05:46.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\spash.scale-140.png">
+      <PackagePath>images\spash.scale-140.png</PackagePath>
+      <Modified>2013-12-18T13:05:46.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\spash.scale-180.png">
+      <PackagePath>images\spash.scale-180.png</PackagePath>
+      <Modified>2013-12-18T13:05:46.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
-      <Modified>2013-12-15T14:36:32.970</Modified>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-18T13:05:46.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\splashscreen.scale-180.png">
+      <PackagePath>images\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-18T13:05:46.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-18T13:05:46.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
-      <Modified>2013-12-15T16:36:52.831</Modified>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-18T13:05:46.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-15T14:36:32.986</Modified>
+      <Modified>2013-12-18T13:05:46.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\gray.png">
       <PackagePath>images\gray.png</PackagePath>
       <Modified>2013-12-15T14:36:32.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\storelogo.scale-140.png">
+      <PackagePath>images\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-18T13:05:46.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\storelogo.scale-180.png">
+      <PackagePath>images\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-18T13:05:46.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-18T13:05:46.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\js\data.js">
       <PackagePath>js\data.js</PackagePath>
@@ -110,7 +140,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\bin\Release\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-12-16T04:03:57.722</Modified>
+      <Modified>2013-12-18T13:56:05.794</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
