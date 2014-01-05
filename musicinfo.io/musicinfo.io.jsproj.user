@@ -5,4 +5,7 @@
     <ShowAllFiles>true</ShowAllFiles>
     <AutoRefresh>true</AutoRefresh>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebuggerFlavor>AppHostSimulatorDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>

@@ -22,6 +22,9 @@ pages\hub\hub.js
 pages\item\item.css
 pages\item\item.html
 pages\item\item.js
+pages\searchResults\searchResults.css
+pages\searchResults\searchResults.html
+pages\searchResults\searchResults.js
 pages\section\section.css
 pages\section\section.html
 pages\section\section.js

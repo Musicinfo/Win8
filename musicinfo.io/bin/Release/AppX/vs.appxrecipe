@@ -6,7 +6,7 @@
     <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>e42a8fe4-5133-4da5-a09c-495dbb7ad21d</PackageIdentityName>
-    <RegisteredManifestChecksum>25B6487DA2C8249AD7B1363A4167031C2A584B795C54A9EC3EA0E712DAFFBFBC</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>E18832DDE7AA4409119799C3842B0279E3A86A53D194CDD66D4195110D072833</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e42a8fe4-5133-4da5-a09c-495dbb7ad21d_1.0.0.0_neutral__50wmwq7kasdhg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e42a8fe4-5133-4da5-a09c-495dbb7ad21d_50wmwq7kasdhg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e42a8fe4-5133-4da5-a09c-495dbb7ad21d</RegisteredPackageID>
@@ -17,7 +17,7 @@
     <AppXManifest Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-18T13:56:05.843</Modified>
+      <Modified>2014-01-05T16:26:52.382</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -28,6 +28,10 @@
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\hub\hub.css">
       <PackagePath>pages\hub\hub.css</PackagePath>
       <Modified>2013-12-15T14:36:33.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\searchResults\searchResults.css">
+      <PackagePath>pages\searchResults\searchResults.css</PackagePath>
+      <Modified>2014-01-02T13:54:50.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\section\section.css">
       <PackagePath>pages\section\section.css</PackagePath>
@@ -114,6 +118,10 @@
       <PackagePath>pages\hub\hub.js</PackagePath>
       <Modified>2013-12-15T14:36:33.001</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\searchResults\searchResults.js">
+      <PackagePath>pages\searchResults\searchResults.js</PackagePath>
+      <Modified>2014-01-02T13:54:50.685</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\section\section.js">
       <PackagePath>pages\section\section.js</PackagePath>
       <Modified>2013-12-15T14:36:33.017</Modified>
@@ -126,6 +134,10 @@
       <PackagePath>pages\hub\hub.html</PackagePath>
       <Modified>2013-12-15T14:36:33.001</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\searchResults\searchResults.html">
+      <PackagePath>pages\searchResults\searchResults.html</PackagePath>
+      <Modified>2014-01-02T14:34:31.009</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\section\section.html">
       <PackagePath>pages\section\section.html</PackagePath>
       <Modified>2013-12-15T14:36:33.017</Modified>
@@ -136,11 +148,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-12-15T14:36:32.970</Modified>
+      <Modified>2014-01-05T16:25:09.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\bin\Release\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-12-18T13:56:05.794</Modified>
+      <Modified>2014-01-05T16:26:52.331</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

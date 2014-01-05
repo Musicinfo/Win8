@@ -22,14 +22,14 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <m2:VisualElements DisplayName="musicinfo.io" Description="musicinfo.io music search database" ForegroundText="light" BackgroundColor="#373737" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png" ToastCapable="true">
-        <m2:DefaultTile ShortName="musicinfo" Square310x310Logo="images\Square310x310Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" Square70x70Logo="images\Square70x70Logo.png">
+      <m2:VisualElements DisplayName="musicinfo.io" Description="musicinfo.io music search database" ForegroundText="dark" BackgroundColor="#f9f6f6" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png" ToastCapable="false">
+        <m2:DefaultTile ShortName="musicinfo" Square310x310Logo="images\Square310x310Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" Square70x70Logo="images\Square70x70Logo.png" DefaultSize="square150x150Logo">
           <m2:ShowNameOnTiles>
             <m2:ShowOn Tile="square150x150Logo" />
             <m2:ShowOn Tile="square310x310Logo" />
           </m2:ShowNameOnTiles>
         </m2:DefaultTile>
-        <m2:SplashScreen Image="images\SplashScreen.png" BackgroundColor="#373737" />
+        <m2:SplashScreen Image="images\SplashScreen.png" BackgroundColor="#f9f6f6" />
       </m2:VisualElements>
       <Extensions>
         <Extension Category="windows.search" />
@@ -38,16 +38,16 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
-    <DeviceCapability Name="microphone" />
   </Capabilities>
-  <Dependencies>
-    <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.16408" />
-  </Dependencies>
   <build:Metadata>
+    <build:Item Name="Blend" Version="12.0.41002.1" />
     <build:Item Name="VisualStudio" Version="12.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2013" />
     <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.21005.1" />
     <build:Item Name="MakePri.exe" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
   </build:Metadata>
+  <Dependencies>
+    <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.16408" />
+  </Dependencies>
 </Package>

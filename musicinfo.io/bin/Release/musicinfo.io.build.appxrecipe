@@ -20,6 +20,9 @@
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\hub\hub.css">
       <PackagePath>pages\hub\hub.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\searchResults\searchResults.css">
+      <PackagePath>pages\searchResults\searchResults.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\section\section.css">
       <PackagePath>pages\section\section.css</PackagePath>
     </AppxPackagedFile>
@@ -86,6 +89,9 @@
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\hub\hub.js">
       <PackagePath>pages\hub\hub.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\searchResults\searchResults.js">
+      <PackagePath>pages\searchResults\searchResults.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\section\section.js">
       <PackagePath>pages\section\section.js</PackagePath>
     </AppxPackagedFile>
@@ -94,6 +100,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\hub\hub.html">
       <PackagePath>pages\hub\hub.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\searchResults\searchResults.html">
+      <PackagePath>pages\searchResults\searchResults.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\toni\Source\Repos\Win8\musicinfo.io\pages\section\section.html">
       <PackagePath>pages\section\section.html</PackagePath>
