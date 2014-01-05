@@ -29,6 +29,12 @@
             }
 
             // TODO: Initialize the page here.
+            var elem = document.querySelector(".searchBox");
+            elem.addEventListener("querysubmitted", this.searchHandler.bind(this));
+        },
+
+        searchHandler: function (args) {
+            WinJS.Navigation.navigate('/pages/search/searchResults.html', args.detail);
         },
 
         section3DataSource: section3Items.dataSource,

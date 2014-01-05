@@ -11,9 +11,9 @@
     <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
 
     <link href="/css/default.css" rel="stylesheet" />
-    <link href="/pages/searchResults/searchResults.css" rel="stylesheet" />
+    <link href="/pages/search/searchResults.css" rel="stylesheet" />
     <script src="/js/data.js"></script>
-    <script src="/pages/searchResults/searchResults.js"></script>
+    <script src="/pages/search/searchResults.js"></script>
 </head>
 <body>
     <!-- This template is used to display each item in the ListView declared
@@ -36,13 +36,11 @@
             <div class="titlearea">
                 <h1 class="pagetitle win-type-ellipsis"></h1>
                 <h2 class="pagesubtitle win-type-ellipsis"></h2>
-            	<input type="text">
             </div>
         </header>
         <section aria-label="Main content" role="main">
             <div class="resultsmessage win-type-x-large">No results match your search.</div>
-            <ul class="filterbar">
-            </ul>
+            <ul class="filterbar"></ul>
             <div class="resultslist win-selectionstylefilled" aria-label="Search results" data-win-control="WinJS.UI.ListView" data-win-options="{
                     selectionMode: 'none',
                     itemTemplate: select('.itemtemplate'),

@@ -7,7 +7,7 @@
     var ui = WinJS.UI;
     var utils = WinJS.Utilities;
 
-    WinJS.UI.Pages.define("/pages/searchResults/searchResults.html", {
+    WinJS.UI.Pages.define("/pages/search/searchResults.html", {
         _filters: [],
         _lastSearch: "",
 
@@ -63,6 +63,7 @@
         _handleQuery: function (element, args) {
             var originalResults;
             this._lastSearch = args.queryText;
+            console.log('###' + args.queryText);
             WinJS.Namespace.define("searchResults", { markText: WinJS.Binding.converter(this._markText.bind(this)) });
             this._initializeLayout(element);
             this._generateFilters();
@@ -88,7 +89,7 @@
             });
         },
 
-        // This function colors the search term. Referenced in /pages/searchResults/searchResults.html
+        // This function colors the search term. Referenced in /pages/search/searchResults.html
         // as part of the ListView item templates.
         _markText: function (text) {
             return text.replace(this._lastSearch, "<mark>" + this._lastSearch + "</mark>");

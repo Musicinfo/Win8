@@ -9,6 +9,15 @@
     z-index: 1;
 }
 
+.hubpage .hub .hero .win-hub-section-header {
+    display: none;
+}
+    
+.hubpage .hub .hero .searchBox {
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
 .hubpage .hub .win-hub-surface {
     height: 100%;
 }
