@@ -47,9 +47,11 @@
                             var resultJson = JSON.parse(result.response);
                             //document.getElementById("aritstDiv").innerText = JSON.stringify(resultJson.artist.results);
                             var artists = resultJson.artist.results;
+                            var releases = resultJson.release.results;
+                            var recordings = resultJson.recording.results;
                             //document.getElementById("artistDiv").removeChild("ul");
                             var artistL = document.createElement("ul");
-                            var sts = "";
+                            var artistRes = "";
 
                             for (var a in artists) {
                                 var artistNode = document.createElement("li");
@@ -58,22 +60,64 @@
                                 //console.log(artists[a].name);
                                 if (artists[a].image != undefined) {
                                     if (artists[a].image.sq != undefined) {
-                                        sts += '<img src="' + artists[a].image.sq + '"/>' + artists[a].name + '<br />';
+                                        artistRes += '<img src="' + artists[a].image.sq + '"/>' + artists[a].name + '<br />';
                                     }
                                     //else {
-                                    //    sts += '<img src="/images/artist.png"/ >' + artists[a].name + '<br />';
+                                    //    artistRes += '<img src="/images/artist.png"/ >' + artists[a].name + '<br />';
                                     //}
                                 } else {
-                                    sts += '<img src="/images/artist.png" width="125px" height="125px" />' + artists[a].name + '<br />';
+                                    artistRes += '<img src="/images/artist.png" width="125px" height="125px" />' + artists[a].name + '<br />';
                                 }
 
                                 //document.getElementById("artistUl").appendChild("li") = artists[a].name;
 
                             }
+                            var releaseL = document.createElement("ul");
+                            var releaseRes = "";
+                            for (var r in releases) {
+                                var releaseNode = document.createElement("li");
+                                releaseNode.appendChild(document.createTextNode(releases[r].name));
+                                releaseL.appendChild(releaseNode);
+                                //console.log(artists[a].name);
+                                if (releases[r].image != undefined) {
+                                    if (releases[r].image.sq != undefined) {
+                                        releaseRes += '<img src="' + releases[r].image.sq + '"/>' + releases[r].name + '<br />';
+                                    }
+                                    
+                                } else {
+                                    releaseRes += '<img src="/images/albums.png" width="125px" height="125px" />' + releases[r].name + '<br />';
+                                }
+
+                                //document.getElementById("artistUl").appendChild("li") = artists[a].name;
+
+                            }
+
+                            var recordingL = document.createElement("ul");
+                            var recordingRes = "";
+                            for (var c in recordings) {
+                                var recordingNode = document.createElement("li");
+                                recordingNode.appendChild(document.createTextNode(recordings[c].name));
+                                recordingL.appendChild(recordingNode);
+                                //console.log(artists[a].name);
+                                if (recordings[c].image != undefined) {
+                                    if (recordings[c].image.sq != undefined) {
+                                        recordingRes += '<img src="' + recordings[c].image.sq + '"/>' + recordings[c].name + '<br />';
+                                    }
+
+                                } else {
+                                    recordingRes += '<img src="/images/rcordings.png" width="125px" height="125px" />' + recordings[c].name + '<br />';
+                                }
+
+                                //document.getElementById("artistUl").appendChild("li") = artists[a].name;
+
+                            }
+
                             //document.getElementById("artistDiv").appendChild(artistL);
-                            document.getElementById("aritstDiv").innerHTML = sts.toString();
-                            document.getElementById("recordingDiv").innerText = JSON.stringify(resultJson.recording.results);
-                            document.getElementById("releaseDiv").innerText = JSON.stringify(resultJson.release.results);
+                            document.getElementById("aritstDiv").innerHTML = artistRes.toString();
+                            document.getElementById("releaseDiv").innerHTML = releaseRes.toString();
+                            document.getElementById("recordingDiv").innerHTML = recordingRes.toString();
+                                //JSON.stringify(resultJson.recording.results);
+                                //JSON.stringify(resultJson.release.results);
                         }
                     },
                     function error(result) {
