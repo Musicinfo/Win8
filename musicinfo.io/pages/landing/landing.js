@@ -36,10 +36,10 @@
             }, false);
 
             function makeSearchQuery(e) {
-                var query = "http://musicinfo.io/json/v1/search/?query=" + e.target.value;
+                var query = "http://musicinfo.io/json/v1/search/?query=" + e.target.value.toString();
                 resP.innerText = e.target.value;
                 WinJS.xhr({
-                    url: query
+                    url: encodeURI(query)
                 }).then(
                     function completed(result) {
                         if (result.status === 200) {
@@ -105,7 +105,7 @@
                                     }
 
                                 } else {
-                                    recordingRes += '<img src="/images/rcordings.png" width="125px" height="125px" />' + recordings[c].name + '<br />';
+                                    recordingRes += '<img src="/images/recordings.png" width="125px" height="125px" />' + recordings[c].name + '<br />';
                                 }
 
                                 //document.getElementById("artistUl").appendChild("li") = artists[a].name;
